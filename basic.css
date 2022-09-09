@@ -1,0 +1,105 @@
+h2 {
+   text-align: center;
+   margin-bottom: .1em;
+}
+
+body{
+   font-family: 'Metrophobic', sans-serif;
+   color: white;
+}
+
+ul {
+   list-style: none;
+   align-content: center;
+   padding-left: 30%;
+}
+
+.reset-button {
+   margin-left: 1em;
+}
+
+.timer-list {
+   padding-left: 1vw;
+}
+
+.timer-list > li {
+   padding-bottom: 5%;
+   display: block;
+}
+
+.timer-list > li > div > span {
+   display: inline-block;
+   width: auto
+}
+
+.timer-box {
+   display: inline-block;
+   float: right;
+   margin-right: 20%;
+   padding-right: 1.5em;
+   padding-left: 1.5em;
+   text-align: center;
+   background-color: white;
+   border: 1px solid black;
+   color: black;
+   font-size: 1em;
+}
+.checkbox-list {
+   padding-left: 40%;
+   text-align: left;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: auto;
+}
+
+.grid > *:first-child {
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+}
+
+/* Just to make the grid visible */
+
+.content-box {
+  background: #161d3a;
+  border: 1px white solid;
+}
+
+.notif {
+   text-align: center;
+   margin-bottom: 1em;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #8b0000;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 100px 30px 100px 30px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.studentname-textarea {
+   width: 100px;
+   display: inline-block
+}
+
+.textarea-container {
+   margin-top: 1em;  
+}
